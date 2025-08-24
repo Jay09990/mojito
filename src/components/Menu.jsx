@@ -32,7 +32,7 @@ const Menu = () => {
     gsap.fromTo(
       ".cocktail img",
       { opacity: 0, xPercent: -100 },
-      { opacity: 1, xPercent: 0, opacity: 1, duration: 1, ease: "power1.inOut" }
+      { opacity: 1, xPercent: 0, duration: 1, ease: "power1.inOut" }
     );
     gsap.fromTo(
       ".details h2",
